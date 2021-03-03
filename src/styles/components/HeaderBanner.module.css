@@ -1,0 +1,47 @@
+.headerContainer {
+  height: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.headerContainer header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.headerBanner {
+  min-width: 100%;
+}
+
+.logoBanner {
+  width: 8rem;
+  transition: scale 0.2s ease-in-out;
+}
+
+.headerContainer h1 {
+  text-align: center;
+  color: var(--white);
+}
+
+.headerContainer button {
+  width: 15rem;
+  height: 3.16rem;
+  
+  color: var(--gray);
+  background: var(--white);
+  border: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  transition: background-color 0.2s;
+}
+
+.headerContainer button:hover {
+  background-color: rgb(1, 26, 105);
+  color: aliceblue;
+}

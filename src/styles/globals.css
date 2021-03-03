@@ -1,0 +1,82 @@
+:root {
+  --white: #fff;
+  --gray: #383838;
+  --darkBlue: #005499;
+  --lightBlue: #0088ED;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url("/fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src: url("/fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/fonts/Poppins-SemiBold.ttf") format('truetype');
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 72%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media (max-width: 414px) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media (max-width: 375px) {
+  html {
+    font-size: 30%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+  color: var(--gray);
+}
+
+body,
+button {
+  font: 600 1rem 'Poppins', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
