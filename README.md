@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./public/logo.svg" alt="Escalator" style="width: 4rem;" />
+  <img src="./public/logo.svg" alt="Escalator" style="width: 2rem;" />
 
   &#xa0;
 
